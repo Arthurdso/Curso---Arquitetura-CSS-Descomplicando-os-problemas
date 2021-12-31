@@ -19,3 +19,24 @@
 .banner {
     position: relative
 }
+
+@media only screen and (min-width: 0px) {
+    .banner__titulo {
+        font: size 3rem;
+    }
+
+    .banner__imagem {
+        height:calc(100vh - 51px);
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .banner__titulo {
+        font-size: 5.0625rem;
+    }
+
+    .banner__imagem {
+        height: calc(100vh -72px)
+    }
+
+}
